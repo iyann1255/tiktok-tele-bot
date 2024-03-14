@@ -13,7 +13,7 @@ app.get('/', (req, res) => {
   const data = {
     status: 'true',
     message: 'Bot Successfully Activated!',
-    author: 'BOTCAHX'
+    author: 'BOTDL'
   };
   const result = {
     response: data
@@ -38,7 +38,7 @@ app.on('error', (err) => {
 listenOnPort(port);
 
 // Bot config token 
-let token = '6526097069:AAEWQPVW9Wa9DRITUZYOUg2mCmrrAdVOEuc'  //replace this part with your bot token
+let token = '6688473789:AAGnMy4WqaPL9cFwuIbmScGv8vYmSdgEMQg'  //replace this part with your bot token
 const bot = new Telegraf(token, { polling: true });
 let Start = new Date();
 
