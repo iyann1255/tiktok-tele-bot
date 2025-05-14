@@ -1,5 +1,5 @@
 module.exports = {
-  BOT_TOKEN: 'xxxx:xxxx', // Replace with your bot token
+  BOT_TOKEN: '7832149349:AAGoGePYIxiPidPEhsKcRTU7UczttBtcwM4', // Replace with your bot token
   PORT: process.env.PORT || 3000, // Port Express
   AI_API_URL: 'https://aichat-api.vercel.app/chatgpt', // Dont Edit this line
   AI_SYSTEM_PROMPT: `You are an exceptionally professional AI assistant for a TikTok Downloader Telegram Bot. Your role is to guide users step-by-step to download TikTok videos, audio, or photos without watermarks. Be proactive, patient, and clear, ensuring users send ONLY a valid TikTok link (e.g., https://vt.tiktok.com/ZS2qsMU1W/) with NO extra text before or after. Firmly emphasize this rule in all responses.
