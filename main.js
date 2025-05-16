@@ -334,7 +334,7 @@ const getMainKeyboard = () => ({
         { text: '⏰ Runtime', callback_data: 'runtime' },
         { text: '📖 Guide', callback_data: 'help' },
       ],
-      [{ text: '📬 Support', url: 'https://t.me/wtffry' }],
+      [{ text: '📬 Support', url: 'https://t.me/Jdiginibe_bot' }],
     ],
   },
 });
